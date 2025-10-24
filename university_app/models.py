@@ -31,7 +31,7 @@ class CourseDescription(models.Model):
     text = models.TextField()
 
     def __str__(self):
-        return f"Kursbeschreibung #{self.text}"
+        return f"Course Description {self.text}"
     
 class Course(models.Model):
     title = models.CharField(max_length=200)
